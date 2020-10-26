@@ -75,4 +75,6 @@ Examples in `test.csv` were transformed by the Elastic Net Regression model. The
 
 
 <br><br>
+[nbviewer](https://nbviewer.jupyter.org/github/ynylgm/data-science-projects/blob/master/house-prices/house-prices.ipynb) for the notebook
+<br><br>
 Source: [Kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
