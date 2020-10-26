@@ -32,7 +32,7 @@ The file should contain a header and have the following format:<br>
 The following graph depicts the distribution of actual house prices in the train dataset, `train.csv`.
 ![Distribution of House Prices](https://github.com/ynylgm/data-science-projects/blob/master/house-prices/images/exploration1.png)
 
-Notice that there are four examples whose GrLivArea values are greater than 4000. Those four examples are [recommended to be removed by the author](https://ww2.amstat.org/publications/jse/v19n3/decock.pdf).
+Notice that there are four examples whose GrLivArea values are greater than 4000. Those four examples are [recommended to be removed by the author](https://ww2.amstat.org/publications/jse/v19n3/decock.pdf).<br>
 ![GrLivArea vs SalePrice](https://github.com/ynylgm/data-science-projects/blob/master/house-prices/images/exploration2.png)
 
 ### Data Modeling and Evaluation
