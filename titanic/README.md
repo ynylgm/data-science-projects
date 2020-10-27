@@ -40,18 +40,18 @@ Relationships between features Age, Sex, Pclass SibSp, Parch vs Survived are as 
 
 ### Data Modeling and Evaluation
 
-Machine learning algorithms that are used for data modeling are Random Forest, K-Nearest Neighbors, Decision Tree, Support Vector Classification, and Logistic Regression. F1-score was used for evaluation.
+Machine learning algorithms that are used for data modeling are Random Forest, K-Nearest Neighbors, Decision Tree, Support Vector Classification. F1-score was used for evaluation.
 
 ![Evaluation](https://github.com/ynylgm/data-science-projects/blob/master/titanic/images/evaluation.png)
 
-The ideal model is K-Nearest Neighbors with the highest F1-score of 0.847435.
+The ideal model is Random Forest Classifier with the highest F1-score of 0.852712.
 
 ### Report
 
-Prediction on examples in `test.csv` was performed using the K-Nearest Neighbors model.
+Prediction on examples in `test.csv` was performed using the Random Forest Classifier.
 
 **Survival Rate of Actual Data**: 0.3838383838383838<br>
-**Survival Rate of Prediction**: 0.3660287081339713
+**Survival Rate of Prediction**: 0.35406698564593303
 
 
 <br><br>
