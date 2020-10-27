@@ -29,7 +29,7 @@ The file should contain a header and have the following format:<br>
 
 ### Data Understanding
 
-The following graph depicts the distribution of actual house prices in the train dataset, `train.csv`.
+The graph below shows the distribution of actual house prices in the train dataset, `train.csv`.
 ![Distribution of House Prices](https://github.com/ynylgm/data-science-projects/blob/master/house-prices/images/exploration1.png)
 
 Notice that there are four examples whose GrLivArea values are greater than 4000. Those four examples are [recommended to be removed by the author](https://ww2.amstat.org/publications/jse/v19n3/decock.pdf).<br>
@@ -37,7 +37,7 @@ Notice that there are four examples whose GrLivArea values are greater than 4000
 
 ### Data Modeling and Evaluation
 
-The following five regression algorithms were used for data modeling - Ridge, Lasso, Elastic Net, Random Forest, and Gradient Boosting.
+The following five regression algorithms were used for data modeling - Ridge, Lasso, Elastic Net, Random Forest, and Gradient Boosting. RMSE and R-squared were used for model evaluation.
 
 #### Ridge Regression
 **RMSE**: 0.1078374048599644<br>
@@ -70,7 +70,8 @@ The most ideal model is Elastic Net Regression with test set RMSE of 0.104624262
 ![Evaluation](https://github.com/ynylgm/data-science-projects/blob/master/house-prices/images/evaluation.png)
 
 ### Report
-Examples in `test.csv` were transformed by the Elastic Net Regression model. The graph below depicts comparison between density distributions of real house prices in `train.csv` and predicted house prices of examples in `test.csv`.<br>
+
+Prediction on examples in `test.csv` was performed using the Elastic Net Regression model. The graph below shows comparison between density distributions of real house prices in `train.csv` and predicted house prices of examples in `test.csv`.<br>
 ![Prediction](https://github.com/ynylgm/data-science-projects/blob/master/house-prices/images/prediction.png)
 
 
